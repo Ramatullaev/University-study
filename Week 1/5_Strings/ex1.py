@@ -14,3 +14,7 @@ print()
 
 for x in "banana":
   print(x)
+
+ 
+ txt = "We are the so-called \"Vikings\" from the north."
+ # will be: We are the so-called "Vikings" from the north.
