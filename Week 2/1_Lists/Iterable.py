@@ -1,0 +1,1 @@
+# The iterable can be any iterable object, like a list, tuple, set etc.
