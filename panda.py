@@ -1,12 +1,14 @@
+a = [int(i) for i in input().split()]
 x = int(input())
-min = 0
-i = x
-while i < x:
-    if x % i == 0:
-        min = i
-        if min <= i:
-            min = i
-            
-    i -= 1
-print(min)
+
+for i in range(len(a)):
+    if x > a[i]:
+        a.insert(i, x)
+        break
+else:
+    a.append(x)
+
+print(a.index(x) + 1)
+
+
 
