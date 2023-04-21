@@ -24,7 +24,7 @@ def game():
                     pygame.quit()
                     sys.exit()
                 if var.secondLevel or var.thirdLevel:
-                    if event.type == pygame.MOUSEBUTTONDOWN:
+                    if event.type == pygame.MOUSEBUTTONDOWN or (event.type == pygame.KEYDOWN and event.key == pygame.K_k) :
                         bullet = Bullet(Objects.Bird.rect.midright[0],Objects.Bird.rect.midright[1], 12 )
                         Objects.all_sprites.add(bullet)
                         Objects.bullet.add(bullet)

@@ -11,7 +11,7 @@ fps_clock = pygame.time.Clock()
 
 # Pipes set
 pipe_frequency = 1500
-pipeGap = screenHeight / 4-45
+pipeGap = screenHeight / 4 - 40
 baseY = screenHeight * 0.75
 pipeHeight = 500
 pipeWidth = 70
